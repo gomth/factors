@@ -6,6 +6,7 @@ import (
 	"github.com/gomth/primes"
 )
 
+// GetUsingTrialDivisionForInt - if val is prime number already, return value will be []int{val}, error, indicating an error
 func GetUsingTrialDivisionForInt(val int) ([]int, error) {
 	primeNumers, err := primes.GenerateAtkin(int(val))
 	if err != nil {
