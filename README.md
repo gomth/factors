@@ -5,3 +5,4 @@
 [![Build Status](https://travis-ci.com/gomth/factors.svg?branch=main)](https://travis-ci.com/gomth/factors)
 [![CircleCI](https://circleci.com/gh/gomth/factors/tree/main.svg?style=svg)](https://circleci.com/gh/gomth/factors/tree/main)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5a22e1f488ee46579160a5362c938815)](https://www.codacy.com/gh/gomth/factors/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gomth/factors&amp;utm_campaign=Badge_Grade)
+[![codebeat badge](https://codebeat.co/badges/77825abd-47cc-49c8-9893-10ac8d78124e)](https://codebeat.co/projects/github-com-gomth-factors-main)
