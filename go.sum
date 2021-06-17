@@ -1,2 +1,4 @@
 github.com/gomth/primes v0.0.0-20210616190723-8eeda3be2901 h1:suBNk8HrGPr4M6S3FeACRFm+vsTV8v1OSV60xCLM2yo=
 github.com/gomth/primes v0.0.0-20210616190723-8eeda3be2901/go.mod h1:G3oaAe77IKO71raPbhkzw80qfnDy0a6CrfaIwltGShU=
+github.com/gomth/primes v0.0.0-20210617183710-320559d6ffdb h1:yLxmkoAUVb4zHY8CZ1V9BtOavYeOmBRYnn2IjOoRVbQ=
+github.com/gomth/primes v0.0.0-20210617183710-320559d6ffdb/go.mod h1:G3oaAe77IKO71raPbhkzw80qfnDy0a6CrfaIwltGShU=
