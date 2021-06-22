@@ -22,7 +22,7 @@ if err != nil {
 | API | Engine | time complexity | space complexity | Details |
 | ------ | ------ | ------ | ------ | ------ |
 | Get | [Trial division][trial_division] | - | - | - |
-| GetUsingTrialDivisionForInt | [Trial division][trial_division] | - | - | - |
+| GetUsingTrialDivisionForInt | [Trial division][trial_division] | - | - | Based on [Fundamental theorem of arithmetic][fundthemofar]. Compleity heavily depends on algo used to pick prime numbers |
 
 ##### TODO:
 - add smth more complex :D
@@ -31,3 +31,4 @@ if err != nil {
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [trial_division]: <https://en.wikipedia.org/wiki/Trial_division>
+   [fundthemofar]: <https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic>

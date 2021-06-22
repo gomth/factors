@@ -45,6 +45,22 @@ func TestFactors30(t *testing.T) {
 	}
 }
 
+func TestFactors4321(t *testing.T) {
+	actual, err := GetUsingTrialDivisionForInt(4321)
+	if err != nil {
+		t.Errorf("TestFactors failed.\nError: %s", err.Error())
+	}
+
+	if len(actual) == 0 {
+		t.Errorf("TestFactors failed.")
+	}
+
+	expected := []int{29, 149}
+	if !cmp(actual, expected) {
+		t.Errorf("TestFactors4321 failed.\nExpected: %v\nActual: %v", expected, actual)
+	}
+}
+
 func TestFactorsOfPrime(t *testing.T) {
 	actual, err := GetUsingTrialDivisionForInt(31)
 	if err == nil {
